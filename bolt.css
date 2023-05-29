@@ -1,0 +1,265 @@
+
+body{
+    font-family: 'Arial';
+
+}
+.black{
+   background: black;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+div.theme{
+flex-direction: row;
+    margin:20px 30px 10px 0px;
+
+
+}
+#sign{
+    border:2px solid orange;
+    border-radius: 10px;
+    font-size: large;
+    padding:5px 10px;
+    position: relative;
+    bottom:13px;
+    text-decoration: none;
+
+}
+#log{
+    text-decoration: underline;
+    color:orange;
+}
+#title{
+    color:orange;
+    font-weight: bold;
+    font-size: 50px;
+}
+#titleQr{
+    font-weight: bold;
+    font-size: 50px;
+}
+#main{
+    padding-left:40px;
+}
+#slika{
+    position: relative;
+    left:600px;
+    width:500px;
+    bottom:200px;
+}
+#signup,#annual,#lifetime{
+    border:2px solid orange;
+    border-radius: 10px;
+    font-size: large;
+    padding:10px 30px;
+}
+#generate,#monthly,.izberiPlan{
+    color:white;
+    background: orange;
+    font-size: large;
+    border:2px solid orange;
+    border-radius: 10px;
+    padding:10px 30px;
+}
+#btns{
+    position: relative;
+    top:30px;
+}
+#content{
+    padding-left:40px;
+
+}
+.dyst{
+    display: flex;
+
+
+}
+.dynamic{
+    flex-direction: row;
+
+}
+.features,.codeTypes,.transparent,.dyst{
+    padding-left:40px;
+}
+.featuresClass1 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    width: 900px;
+    gap: 12px;
+}
+
+
+
+.features{
+    background: beige;
+
+}
+.featuresClass2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:60px;
+    width:1000px;
+    gap:12px;
+
+
+}
+.slika1{
+    background: orange;
+    border-radius: 30px;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+}
+
+
+#guest,#free,#business{
+    background-image: linear-gradient(to bottom right, pink, white);
+    width:300px;
+    border-radius: 20px;
+
+}
+.divPlans{
+    position: relative;
+    top:100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.divPlans,h3{
+    text-align: center;
+}
+#popular{
+    background-image: linear-gradient(to bottom right, orange, white);
+    width:300px;
+    border-radius: 20px;
+
+}
+#pro{
+    text-decoration: 2px underline white;
+
+}
+#mostPopular{
+    border-radius: 20px;
+    background: orange;
+    color: white;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-top: 5px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    width: 260px;
+    text-align: center;
+}
+#links{
+    display: flex;
+position: relative;
+    bottom: 50px;
+}
+.footerImg{
+    padding-left: 10px;
+}
+footer{
+    margin:20px 30px 40px 40px;
+
+}
+#family{
+    background: lightgray;
+    width: 500px;
+
+
+
+}
+#taraba{
+    display: flex;
+    justify-content: space-between;
+}
+.whiteBg2{
+    background:white ;
+    height: 100px;
+}
+.whiteBg1{
+    height: 100px;
+}
+
+.first{
+color: lightgray;
+
+
+
+}
+.second{
+
+    color:orange;
+
+}
+#tarabaSlika{
+    position: relative;
+    bottom:36px;
+}
+.transparent{
+    background: whitesmoke;
+}
+#simple{
+    padding:20px;
+}
+#plan{
+    display: flex;
+    justify-content: flex-end;
+    gap:12px;
+
+}
+.transparent>p{
+    padding-left: 20px;
+}
+#content{
+      background: whitesmoke;;
+}
+.dynamic,.static{
+    width: 600px;
+    line-height: 1.5;
+}
+.senka{
+    box-shadow: 10px 10px 40px gray;
+}
+.qr1,.qr2,.qr3,.qr4{
+    width: 250px;
+
+
+}
+ul li{
+    list-style: none;
+}
+#guest ul li:not(:first-child){
+    text-decoration: line-through;
+}
+#staticLi li{
+    list-style-image: url("home/static_and_dynamic/validation-icon.svg");
+}
+#dynamicLi li {
+    list-style-image: url("home/static_and_dynamic/validation-icon.svg");
+}
+#staticImg{
+    position: relative;
+  right:220px;
+}
+#dynamicImg{
+    position: relative;
+    right:260px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+#sijalica{
+    position: relative;
+    left:10px;
+}

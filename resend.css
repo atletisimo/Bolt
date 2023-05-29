@@ -1,0 +1,155 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+div.theme{
+    flex-direction: row;
+    margin:20px 30px 10px 0px;
+
+
+}
+#sign{
+    border:2px solid orange;
+    border-radius: 10px;
+    font-size: large;
+    padding:5px 10px;
+    position: relative;
+    bottom:13px;
+    text-decoration: none;
+
+}
+#log{
+    text-decoration: underline;
+    color:orange;
+}
+.container{
+    padding-left:60px;
+}
+input{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+}
+#tarabaSlika{
+    position: relative;
+    bottom:36px;
+}
+#title{
+    color:orange;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.account{
+    color:white;
+    background: orange;
+    font-size: large;
+    border:2px solid orange;
+    border-radius: 10px;
+    padding:10px 30px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+div.theme{
+    flex-direction: row;
+    margin:20px 30px 10px 0px;
+
+
+}
+#links{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+}
+.footerImg{
+    padding-left: 10px;
+}
+footer{
+    margin:20px 30px 40px 40px;
+
+}
+#family{
+    background: lightgray;
+    width: 500px;
+
+
+
+}
+#taraba{
+    display: flex;
+    justify-content: space-between;
+}
+.whiteBg2{
+    background:white ;
+    height: 100px;
+}
+.whiteBg1{
+    height: 100px;
+}
+
+.first{
+    color: lightgray;
+
+
+
+}
+#slika{
+    position: relative;
+    left:880px;
+    width:500px;
+    bottom:240px;
+}
+.second{
+
+    color:orange;
+
+}
+#tarabaSlika{
+    position: relative;
+    bottom:36px;
+}
+.container{
+    padding-left:60px;
+}
+input{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+}
+#sign{
+    border:2px solid orange;
+    border-radius: 10px;
+    font-size: large;
+    padding:5px 10px;
+    position: relative;
+    bottom:13px;
+    text-decoration: none;
+
+}
+#log{
+    text-decoration: underline;
+    color:orange;
+}
+#sendActivation{
+    color:white;
+    background: orange;
+    font-size: large;
+    border:2px solid orange;
+    border-radius: 10px;
+    padding:10px 30px;
+}
+#returnLink{
+    color:orange;
+}
+#resend{
+    color:orange;
+    font-weight: bold;
+    font-size: 50px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Another simple example</title>
+  <link rel="stylesheet" type="text/css" href="resend.css">
+</head>
+<body>
+<div class="wrapper"/>
+  <img src="footer/bolt-logo.svg">
+  <header>
+
+    <div class='theme'>Generate QR Codes</div>
+    <div  class='theme' >Pricing</div>
+    <div  class='theme' ><a id='log'href="logIn.html">Log in</a></div>
+    <div class="theme">
+      <a id="sign" href="signup.html">Sign up</a>
+      <img id="sijalica" src="home/theme-icon.svg" onclick="myFunction()"/>
+
+    </div>
+  </header>
+<div class='container'>
+  <h1 id='resend'>Resend activation email
+  </h1>
+  <p>Mails cant get lost,but we can send you another activation email for your account. </p>
+  <form class='email'>
+    <input type='text' placeholder="Your email*"><br><br>
+
+  </form>
+
+
+  <button id='sendActivation'>Send activation</button>
+
+  <p><a id="returnLink" href="logIn.html">Return to login </a></p>
+</div>
+  <img src="log-in/resend-activation-email-illustration.png" id="slika"/>
+  <div id="footer">
+    <div id="taraba">
+      <img id="tarabaSlika" src="footer/taraba-logo-latin-full-color-white%201.svg"/>
+      <div id="quick">
+        <h3>Quick links</h3>
+        <a href="#" class="first">Generate QR codes</a><br>
+        <a href="#" class="first">Pricing</a><br>
+
+        <a href="#" class="second">Terms and Conditions  </a>
+        <a href="#" class="second">   Privacy Policy</a>
+
+      </div>
+      <div id="family">
+        <h3>Our family</h3>
+      </div>
+    </div>
+
+
+    <div id="links">
+      <div><img class='footerImg 'src="footer/linked-in-large.svg"></div>
+      <div><img class='footerImg ' src="footer/instagram-large.svg"></div>
+      <div><img class='footerImg ' src="footer/you-tube-large.svg"></div>
+      <div><img class='footerImg ' src="footer/facebook-large.svg"></div>
+
+
+
+    </div>
+
+  </div>
+
+  </footer>
+  <script>
+    function myFunction() {
+      let pozadina = document.body;
+      pozadina.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
